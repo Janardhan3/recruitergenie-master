@@ -1,0 +1,138 @@
+.container{
+    width:400px;
+    margin: auto;
+    font-family: 'Epilogue';
+}
+@media (max-width:550px) {
+    .container{
+        width: 300px;
+        margin-top: 15px;
+    }
+  }
+.bg{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.logo{
+    width:10vw;
+    height:10vw;
+}
+
+
+
+.form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.52vw;
+}
+.form label{
+    font-weight: 600;
+    line-height: 160%;
+    color: #515B6F;
+    margin-bottom: 0.27vw;
+}
+
+.form input::placeholder{
+    color: #A8ADB7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.form button{
+    width: 100%;
+    height: 3.47vw;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1.66vw;
+    cursor: pointer;
+    background-color: #4640DE;
+
+
+}
+
+.container h4{
+    font-style: normal;
+    font-weight: 400;
+    color: #202430b5;
+    font-size: 15px;
+}
+
+.container h4>a{
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    color: #4640DE;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #6760eb transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @media (min-width: 700px) {
+    .signUp {
+        position: relative;right: 100px;
+    }
+  }
+  .icons{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+  
+}
+.bottom{
+    display: flex;
+    margin: 2.9vw 0;
+    justify-content: space-between;
+}
+@media (min-width:500px) {
+    .icons{
+        position:absolute;
+        right: 0;
+    }
+  }
+  @media (max-width:500px) {
+    .bottom{
+    display: flex;
+    flex-direction: column;
+
+    }
+  }
